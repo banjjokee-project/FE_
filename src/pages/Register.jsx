@@ -81,7 +81,7 @@ const Register = () => {
         
         
         <div className="text-sm mt-1">
-                <div href="#" className="grid grid-flow-col auto-cols-max pt-2 font-semibold text-black hover:text-indigo-500" onClick={() => navigate("/login")}>
+                <div href="#" className="grid grid-flow-col auto-cols-max pt-3 font-semibold text-black hover:text-indigo-500" onClick={() => navigate("/login")}>
                   <img className="w-5 h-4 mt-0.5" src="/assets/iconnext.png" alt="" />Log-In
                 </div>
         </div>

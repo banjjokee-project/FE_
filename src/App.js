@@ -18,6 +18,10 @@ import Error from "./pages/Error";
 
 import Footer from "./pages/Footer";
 
+
+import Example from "./pages/Example";
+
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -26,6 +30,13 @@ export default function App() {
         <Route path="/" element={<Hero />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+
+        <Route path="/example" element={<Example />} />
+        <Route path="/walking" element={<Walking />} />
+        <Route path="/restaurant" element={<Restaurant />} />
+        <Route path="/example" element={<Example />} />
+        <Route path="/alramlist" element={<Alarmlist />} />
+        <Route path="/board" element={<Board />} />
         
 
         

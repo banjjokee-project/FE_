@@ -55,7 +55,7 @@ const Login = () => {
               <button
                 type="submit"
                 className="block w-full h-14 justify-center bg-black rounded-md mt-4 px-3 py1.5 text-sm font-bold leading-6 text-white content-center shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                onClick={() => navigate("/")}
+                onClick={() => navigate("/example")}
               >
                 NEXT
               </button>
@@ -64,7 +64,7 @@ const Login = () => {
             <div>
               <button
                 type="submit"
-                className="block w-full h-14 justify-center bg-black rounded-md mt-4 px-3 py1.5 text-sm font-bold leading-6 text-white content-center shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="block w-full h-14 justify-center bg-black rounded-md mt-3 px-3 py1.5 text-sm font-bold leading-6 text-white content-center shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 GOOGLE LOG-IN
               </button>
@@ -74,7 +74,7 @@ const Login = () => {
           
           
           <div className="text-sm mt-1">
-                  <div href="#" className="grid grid-flow-col auto-cols-max pt-2 font-semibold text-black hover:text-indigo-500">
+                  <div href="#" className="grid grid-flow-col auto-cols-max pt-3 font-semibold text-black hover:text-indigo-500">
                     <img className="w-5 h-4 mt-0.5" src="/assets/iconnext.png" alt="" />Forgot Password
                   </div>
             <div href="#" className="grid grid-flow-col auto-cols-max pt-1 font-semibold leading-6 text-black hover:text-indigo-500" onClick={() => navigate("/register")}>
