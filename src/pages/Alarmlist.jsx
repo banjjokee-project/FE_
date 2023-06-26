@@ -2,8 +2,16 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 
 const Alarmlist = () => {
+    const navigate = useNavigate();
+
     return (
-        <div className="flex min-h-full flex-1 flex-col justify-center py-12 lg:px-8">
+        <div className="flex min-h-full flex-1 flex-col justify-center mx-96 py-12 pb-64 lg:px-8">
+            <img
+            className="mx-auto h-6 mb-4"
+            src="/assets/iconback.jpg"
+            alt=""
+            onClick={() => navigate("/example")}
+          />
             <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                 <h2 className="line mt-2 text-2xl font-medium text-center leading-9 tracking-tight text-gray-900">
                     Alarm

@@ -5,9 +5,17 @@ import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const Board = () => {
+  const navigate = useNavigate();
+  
   return (
 
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+      <img
+            className="mx-auto h-6 mr-96"
+            src="/assets/iconback.jpg"
+            alt=""
+            onClick={() => navigate("/example")}
+      />
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <h2 className="line mt-7 text-4xl leading-9 tracking-tight text-gray-900">
           “My dog 

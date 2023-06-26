@@ -35,7 +35,7 @@ export default function App() {
         <Route path="/walking" element={<Walking />} />
         <Route path="/restaurant" element={<Restaurant />} />
         <Route path="/example" element={<Example />} />
-        <Route path="/alramlist" element={<Alarmlist />} />
+        <Route path="/alarmlist" element={<Alarmlist />} />
         <Route path="/board" element={<Board />} />
         
 
