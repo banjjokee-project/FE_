@@ -8,10 +8,10 @@ const Hero = () => {
     return (
       
       <div className="hero">
-        <img className="h-screen w-fit" src="/assets/background.jpg" alt="" />
+        <img className="h-screen w-fit mb-4" src="/assets/background.jpg" alt="" />
         <div>
-        <div className="hero-content text-center mb-10">
-          <div className="max-w-md pt-44 pb-48">
+        <div className="hero-content text-center">
+          <div className="max-w-md pt-48 pb-40">
             <p className="py-6">반려 동물과 함께하는 건강한 삶</p>
             <div className="grid grid-flow-row-dense grid-cols-3">
               <img className="" src="/assets/slogo.png" alt="" />
