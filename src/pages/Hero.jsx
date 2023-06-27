@@ -13,7 +13,7 @@ const Hero = () => {
         <div>
         <div className="hero-content text-center pt-0">
           <div className="max-w-md pt-44 pb-48">
-            <p className="py-6">반려 동물과 함께하는 건강한 삶</p>
+            <p className="py-6">반려 동물과 함께하는 건강한 삶dlfkdjlfksjdl;kf</p>
             <div className="grid grid-flow-row-dense grid-cols-3">
               <img className="" src="/assets/slogo.png" alt="" />
               <div className="col-span-2 pt-1">
