@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero">
         <img className="h-screen w-fit" src="/assets/background.jpg" alt="" />
         <div>
-        <div className="hero-content text-center pb-10">
+        <div className="hero-content text-center mb-10">
           <div className="max-w-md pt-44 pb-48">
             <p className="py-6">반려 동물과 함께하는 건강한 삶</p>
             <div className="grid grid-flow-row-dense grid-cols-3">
