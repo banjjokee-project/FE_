@@ -7,7 +7,7 @@ const Hero = () => {
   
     return (
       
-      <div className="artboard artboard-horizontal phone-1 ">568×320
+      <div className="artboard phone-1">320×568
       <div className="hero">
         <img className="h-screen w-fit" src="/assets/background.jpg" alt="" />
         <div>
