@@ -17,6 +17,7 @@ import Boardform from "./pages/Boardform";
 import Error from "./pages/Error";
 
 import Footer from "./pages/Footer";
+import BottomNav from "./pages/BottomNav";
 
 
 import Example from "./pages/Example";
@@ -41,6 +42,7 @@ export default function App() {
 
         
       </Routes>
+      <BottomNav />
     </BrowserRouter>
   );
 }
