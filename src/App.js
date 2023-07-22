@@ -16,7 +16,6 @@ import Boardform from "./pages/Boardform";
 
 import Error from "./pages/Error";
 
-import Footer from "./pages/Footer";
 import BottomNav from "./pages/BottomNav";
 
 

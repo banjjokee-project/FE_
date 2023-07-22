@@ -9,14 +9,14 @@ const Appointment = () => {
 
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <h2 className="line mt-6 text-4xl leading-9 tracking-tight text-gray-900">
+          <h2 className="line mt-6 text-3xl leading-9 tracking-tight text-gray-900">
             A Hospital Appointment
           </h2>
       </div>
   
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-sm">
         <div className="grid h-72 flex-grow border-2 border-black bg-base-300 place-items-center">calendar</div>
-        <div className="line text-2xl ml-2 mt-7 mb-5">
+        <div className="line text-2xl ml-2 mt-6 mb-5">
           5월 1일의 예약
         </div>
         <div className="flex w-full border-2 border-black">

@@ -6,15 +6,7 @@ const Example = () => {
     
   
     return (
-      <div className="">
-        <h2 className="text-2xl text-center pt-40 pb-8">
-        <img
-            className="mx-auto h-6 mb-4"
-            src="/assets/iconback.jpg"
-            alt=""
-            onClick={() => navigate("/")}
-        />
-        </h2>
+      <div className="flex min-h-[80%] flex-1 flex-col justify-center py-4 px-6">
       </div>
     );
   };

@@ -27,9 +27,12 @@ body,
   overflow-y: auto;
 }
 
+
 .hero {
   @apply fixed top-0 bottom-0 left-0 right-0;
 }
+
+
 
 
 
@@ -54,12 +57,14 @@ code {
   left: 0;
   right: 0;
   height: 45px;
+  width: 40%;
 }
 
 /* nav태그 아래의 자식들을 수평정렬하기 위한 설정 */
 nav {
   overflow: hidden;
-  border-top: 2px solid grey;
+  border-top: 2px solid lightgrey;
+  background-color: white;
 }
 /* nav태그 아래의 div태그들을 수평정렬 및 세로길이 설정 */
 .nav-link {
@@ -67,7 +72,7 @@ nav {
   float: left;
   width: 20%;
   text-align: center;
-
+  
   /* 세로길이 설정 */
   height: 45px;
   line-height: 45px;

@@ -9,23 +9,20 @@ const Board = () => {
   
   return (
 
-    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-      <img
-            className="mx-auto h-6 mr-96"
-            src="/assets/iconback.jpg"
-            alt=""
-            onClick={() => navigate("/example")}
-      />
+    <div className="flex min-h-[80%] flex-1 flex-col justify-center w-96 mx-auto py-4 px-2">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <h2 className="line mt-7 text-4xl leading-9 tracking-tight text-gray-900">
+          <h2 className="line mt-7 text-3xl leading-9 tracking-tight text-gray-900">
           “My dog 
           <br></br>
           is the cutest” Board
           </h2>
-          <div className="line pt-8 text-md font-extrabold">Q&A 로도 활용해요 !</div>
+          <div className="line pt-6 text-sm font-extrabold">Q&A 로도 활용해요 !</div>
       </div>
   
-      <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 mt-5 gap-3">
+      <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 mt-4 gap-2">
+      <img className=""src="/assets/leo.jpg" alt=""></img>
+      <img className=""src="/assets/leo.jpg" alt=""></img>
+      <img className=""src="/assets/leo.jpg" alt=""></img>
       <img className=""src="/assets/leo.jpg" alt=""></img>
       <img className=""src="/assets/leo.jpg" alt=""></img>
       <img className=""src="/assets/leo.jpg" alt=""></img>
