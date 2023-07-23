@@ -36,8 +36,8 @@ const Profile = () => {
   };
 
   return (
-    <div className="flex justify-center w-full px-4 pt-8">
-      <div className="flex flex-col items-center w-full">
+    <div className="flex min-h-full flex-1 flex-col justify-center px-8 lg:px-8 pb-12">
+      <div className="flex flex-col items-center">
         <div className="relative w-32 h-32 mb-8 rounded-full">
           <div className="absolute top-0 left-0 w-full h-full bg-gray-200 rounded-full"></div>
           <input
@@ -52,6 +52,7 @@ const Profile = () => {
             onClick={imgHandler}
             src={profileImg}
             className="absolute top-0 left-0 w-full h-full border border-white rounded-full"
+            alt=""
           />
         </div>
 
@@ -60,7 +61,7 @@ const Profile = () => {
           value={name}
           size={name.length + 1}
           onChange={changeNameHandler}
-          className="text-4xl min-w-fit focus:outline-none"
+          className="text-3xl min-w-fit focus:outline-none"
         />
 
         <div className="flex items-center mt-10 space-x-4">
@@ -69,14 +70,14 @@ const Profile = () => {
             70%
           </div>
         </div>
-        <div className="w-full space-y-4 mt-9">
-          <BasicButton text="SCHEDULER" onClick={() => navigate('/schedule')} />
+        <div className="w-full space-y-4 mt-10 px-96">
+          <BasicButton text="SCHEDULER" onClick={() => navigate('/schedule')} /><br />
           <BasicButton
             text="WHAT I WROTE"
             bg="white"
             onClick={() => navigate('/note')}
           />
-          <BasicButton text="ALARM SETTINGS" />
+          <br /><BasicButton text="ALARM SETTINGS" />
         </div>
       </div>
     </div>

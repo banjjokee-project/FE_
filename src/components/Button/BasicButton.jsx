@@ -8,7 +8,7 @@ const BasicButton = ({ text = '버튼', bg = 'black', onClick }) => {
   return (
     <button
       onClick={onClick}
-      className={`${TYPE[bg]} text-md font-black rounded-md w-full py-4`}
+      className={`${TYPE[bg]} text-sm font-bold rounded-md w-full h-14 py-4`}
     >
       {text}
     </button>
