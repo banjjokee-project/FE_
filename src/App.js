@@ -17,7 +17,6 @@ import Boardform from './pages/Boardform';
 import Error from './pages/Error';
 
 import BottomNav from './pages/BottomNav';
-import Example from './pages/Example';
 import Profile from './pages/Profile';
 import Schedule from './pages/Schedule';
 import Note from './pages/Note';
@@ -31,7 +30,6 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
-        <Route path="/example" element={<Example />} />
         <Route path="/walking" element={<Walking />} />
         <Route path="/restaurant" element={<Restaurant />} />
         <Route path="/profile" element={<Profile />} />

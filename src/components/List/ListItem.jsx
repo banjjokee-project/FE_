@@ -1,8 +1,8 @@
 const ListItem = ({ title, content }) => {
   return (
-    <li className="px-12 text-sm border-b border-gray-200 py-7">
-      <p className="font-bold">{title}</p>
-      <p className="truncate ... w-1/2">{content}</p>
+    <li className="w-1/3 mx-auto py-4 px-12 h-20 text-sm border-b border-gray-200 p-4">
+      <p className="line text-sm font-bold pt-1">{title}</p>
+      <p className="line test-sm truncate ...">{content}</p>
     </li>
   );
 };

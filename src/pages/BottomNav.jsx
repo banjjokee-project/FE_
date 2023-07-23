@@ -22,7 +22,7 @@ const BottomNav = () => {
         </Link>
       </div>
       <div>
-        <Link to="/example" className="nav-link px-10 py-5">
+        <Link to="/profile" className="nav-link px-10 py-5">
         <img className="h-4 w-4" src="/assets/free-icon-font-user.png" alt=""></img>
         </Link>
       </div>

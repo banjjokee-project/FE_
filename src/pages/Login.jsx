@@ -55,7 +55,7 @@ const Login = () => {
               <button
                 type="submit"
                 className="block w-full h-14 justify-center bg-black rounded-md mt-4 px-3 py1.5 text-sm font-bold leading-6 text-white content-center shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                onClick={() => navigate("/example")}
+                onClick={() => navigate("/profile")}
               >
                 NEXT
               </button>

@@ -7,7 +7,7 @@ const Schedule = () => {
   const [value, onChange] = useState(new Date());
 
   return (
-    <div className="px-4 pt-4 ">
+    <div className="px-4 pt-4">
       <h2 className="mb-4 text-4xl">
         A Hospital
         <br />

@@ -3,7 +3,7 @@ import ListItem from 'components/List/ListItem';
 const Note = () => {
   return (
     <ul>
-      <h2 className="py-3 border-b border-gray-200 text-center text-[23px] font-bold">
+      <h2 className="w-1/3 mx-auto py-4 mt-4 border-b border-gray-200 text-center text-2xl font-semibold">
         What I Wrote
       </h2>
       <ListItem
