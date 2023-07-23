@@ -3,19 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Comfortaa', cursive;
-    src: url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-  }
+  font-family: 'Comfortaa', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+}
 .line {
-    font-family: 'Comfortaa', cursive;
-    font-weight: light;
-  }
+  font-family: 'Comfortaa', cursive;
+  font-weight: light;
+}
 
 /* Style */
 * {
   font-family: 'Comfortaa';
 }
-
 
 html,
 body,
@@ -31,9 +30,6 @@ body,
 .hero {
   @apply fixed top-0 bottom-0 left-0 right-0;
 }
-
-
-
 
 
 body {
@@ -86,4 +82,46 @@ nav {
 /* 하단 네비바의 메뉴를 눌렀을 때 색상 변경*/
 .active {
   color: #ef5c89;
+}
+
+/*react calender css*/
+
+.react-calendar {
+  @apply mx-auto;
+}
+.react-calendar__month-view__weekdays {
+  @apply bg-black text-white py-2 font-black;
+}
+.react-calendar__month-view__days {
+  @apply p-2;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  @apply no-underline;
+}
+
+.react-calendar__tile {
+  @apply aspect-square hover:!bg-transparent;
+}
+.react-calendar__tile abbr {
+  @apply block p-2 hover:bg-gray-200 hover:rounded-full;
+}
+
+.react-calendar__tile--now,
+.react-calendar__tile--active {
+  @apply rounded-full !text-black;
+}
+
+.react-calendar__tile--now {
+  @apply !bg-transparent;
+}
+
+.react-calendar__tile--now abbr {
+  @apply block !p-2 !bg-transparent !bg-gray-300 rounded-full;
+}
+
+.react-calendar__tile--active {
+  @apply !bg-transparent;
+}
+.react-calendar__tile--active abbr {
+  @apply block !p-2 !border !text-green-700 rounded-full !border-green-600;
 }

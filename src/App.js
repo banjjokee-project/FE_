@@ -1,26 +1,28 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import "./index.css";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './index.css';
 
-import Hero from "./pages/Hero";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Walking from "./pages/Walking";
-import Restaurant from "./pages/Restaurant";
-import Appointment from "./pages/Appointment";
-import Alarmlist from "./pages/Alarmlist";
+import Hero from './pages/Hero';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Walking from './pages/Walking';
+import Restaurant from './pages/Restaurant';
+import Appointment from './pages/Appointment';
+import Alarmlist from './pages/Alarmlist';
 
-import Board from "./pages/Board";
-import Boarddetail from "./pages/Boarddetail";
-import Boardform from "./pages/Boardform";
+import Board from './pages/Board';
+import Boarddetail from './pages/Boarddetail';
+import Boardform from './pages/Boardform';
 
-import Error from "./pages/Error";
-
-import BottomNav from "./pages/BottomNav";
+import Error from './pages/Error';
 
 
-import Example from "./pages/Example";
-
+import Footer from './pages/Footer';
+import BottomNav from './pages/BottomNav';
+import Example from './pages/Example';
+import Profile from './pages/Profile';
+import Schedule from './pages/Schedule';
+import Note from './pages/Note';
 
 export default function App() {
   return (
@@ -34,12 +36,11 @@ export default function App() {
         <Route path="/example" element={<Example />} />
         <Route path="/walking" element={<Walking />} />
         <Route path="/restaurant" element={<Restaurant />} />
-        <Route path="/example" element={<Example />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/note" element={<Note />} />
         <Route path="/alarmlist" element={<Alarmlist />} />
         <Route path="/board" element={<Board />} />
-        
-
-        
       </Routes>
       <BottomNav />
     </BrowserRouter>
