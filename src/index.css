@@ -123,5 +123,5 @@ nav {
   @apply !bg-transparent;
 }
 .react-calendar__tile--active abbr {
-  @apply block !p-2 !border !text-green-700 rounded-full !border-green-600;
+  @apply block !p-2 !border !text-green-700 rounded-full !border-indigo-500;
 }

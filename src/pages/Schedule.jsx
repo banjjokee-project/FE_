@@ -7,8 +7,9 @@ const Schedule = () => {
   const [value, onChange] = useState(new Date());
 
   return (
-    <div className="px-4 pt-4">
-      <h2 className="mb-4 text-4xl">
+    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-4 lg:px-8">
+       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+      <h2 className="mb-4 text-3xl">
         A Hospital
         <br />
         Appointment
@@ -20,12 +21,13 @@ const Schedule = () => {
         locale="en"
         showNeighboringMonth={false}
       />
-      <div className="flex flex-col mt-6 space-y-2">
-        <p className="mb-4 text-lg">5월 1일의 예약</p>
+      <div className="flex flex-col mt-5 space-y-1.5">
+        <p className="mb-2 text-lg">5월 1일의 예약</p>
         <InputBox />
         <InputBox title="미용" />
         <InputBox title="심장<br/>사상충약" />
       </div>
+    </div>
     </div>
   );
 };

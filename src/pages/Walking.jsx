@@ -3,8 +3,11 @@ import { useNavigate } from "react-router-dom";
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 const Walking = () => {
+  const [value, onChange] = useState(new Date());
 
   return (
 
@@ -16,7 +19,13 @@ const Walking = () => {
       </div>
   
       <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-sm">
-        <div className="grid h-72 flex-grow border-2 border-black bg-base-300 place-items-center">calendar</div>
+      <Calendar
+        onChange={onChange}
+        value={value}
+        showNavigation={false}
+        locale="en"
+        showNeighboringMonth={false}
+      />
         <div className="line text-lg ml-1 mt-6 mb-4">
           5월 1일의 산책
         </div>
