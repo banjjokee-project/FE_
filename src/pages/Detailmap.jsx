@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { MapContainer } from "../pages/utils/MapContainer";
+import { MapContainer } from "./MapContainer";
 
 const { kakao } = window;
 
