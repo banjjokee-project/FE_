@@ -70,7 +70,7 @@ const Profile = () => {
             70%
           </div>
         </div>
-        <div className="w-full space-y-4 mt-10 px-96">
+        <div className="w-full space-y-4 mt-10 px-96 place-items-center">
           <BasicButton text="SCHEDULER" onClick={() => navigate('/schedule')} /><br />
           <BasicButton
             text="WHAT I WROTE"
