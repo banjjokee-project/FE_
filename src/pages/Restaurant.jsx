@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
-import axios from "axios";
 import PlacesMap from "./PlacesMap";
 import Place from "./Place";
 
@@ -22,12 +21,6 @@ const Restaurnat = () => {
   const navigate = useNavigate();
   const [data, setData] = useState(dummyData);
 
-  useEffect(() => {
-    axios
-      .get("/api/place")
-      .then((res) => setData(res.data))
-      .catch((err) => console.log(err));
-  }, []);
 
   return (
     <div className="flex w-[80%] flex-1 flex-col justify-center py-4 px-6">
