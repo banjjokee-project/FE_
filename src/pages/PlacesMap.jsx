@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { MapContainer } from "./MapContainer";
-
+import { MapContainer } from "../utils/MapContainer";
 const { kakao } = window;
 
 const PlacesMap = ({ height, data }) => {
@@ -51,11 +50,11 @@ const PlacesMap = ({ height, data }) => {
         navigate(`/place/${item._id}`);
       });
     });
-  }, [data]);
+  });
 
   return (
     <div
-      className="rounded-xl mt-6 lg:mx-6"
+      className="rounded-xl mt-9 lg:mx-6"
       id="map"
       style={{ width: "auto", height: `${height}` }}
     />

@@ -1,12 +1,12 @@
 import { useEffect } from "react";
-import { MapContainer } from "./MapContainer";
+import { MapContainer } from "../utils/MapContainer";
 
 const { kakao } = window;
 
 const DetailMap = ({ lat, lng, placeName, width, height }) => {
   useEffect(() => {
     // 지도 생성
-    const map = MapContainer(3);
+    const map = MapContainer(4);
 
     // 위도와 경도를 props로 받아서 저장
     const coords1 = new kakao.maps.LatLng(lat, lng);
@@ -19,7 +19,7 @@ const DetailMap = ({ lat, lng, placeName, width, height }) => {
 
     // 인포윈도우로 장소에 대한 설명을 표시
     const infowindow = new kakao.maps.InfoWindow({
-      content: `<div style="width:150px;text-align:center;padding:6px 0;">${placeName}</div>`,
+      content: `<div style="width:150px;text-align:center;padding 6px 0;">${placeName}</div>`,
     });
     infowindow.open(map, marker);
 
@@ -28,11 +28,12 @@ const DetailMap = ({ lat, lng, placeName, width, height }) => {
   }, [lat, lng, placeName]);
 
   return (
+    <div>
     <div
       className="rounded-xl my-6 mx-6"
       id="map"
       style={{ width: `${width || "auto"}`, height: `${height}` }}
-    />
+    /></div>
   );
 };
 
