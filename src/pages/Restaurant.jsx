@@ -29,7 +29,7 @@ const Restaurnat = () => {
             A Dog-friendly Restaurant
           </h2>
       </div>
-      <div className="container w-[50%] xl:max-w-10xl absolute top-20 bottom-10 left-24 right-10">
+      <div className="container w-[50%] xl:max-w-10xl absolute top-20 bottom-10 left-50 right-20">
         <PlacesMap height="40%" data={data} />
         <div className="places ml-5 mt-5 mb-5 mx-auto lg:mr-5 overflow-y-scroll">
         {data.map((item) => {
