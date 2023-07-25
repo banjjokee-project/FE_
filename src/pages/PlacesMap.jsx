@@ -54,7 +54,7 @@ const PlacesMap = ({ height, data }) => {
 
   return (
     <div
-      className="rounded-xl mt-9 lg:mx-6"
+      className="mt-4 lg:mx-3 border-2 border-black"
       id="map"
       style={{ width: "auto", height: `${height}` }}
     />
